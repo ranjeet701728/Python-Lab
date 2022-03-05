@@ -1,0 +1,6 @@
+p=int(input ("enter the initial principal"))
+r=int(input ("enter the rate of íntrest"))
+t=int(input("enter the time period"))
+a=p*pow(1+r/100,t)
+cI=round(a-p,2)
+print(cI)    
